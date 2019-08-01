@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.logo img {
+    padding: 0px 10px;
+    width: 120px;
+    height: 100%;
+}
+
+/* The top navigation menu */
+.navbar {
+    z-index: 9998;
+    display: inline;
+    padding: 0px 140px;
+    width: 100%;
+    background-color: #16649d;
+    position: fixed;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+}
+
+/* Sidebar links */
+.navbar a {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: black;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 22px;
+    background-color: #16649d;
+    color: #83d1f5;
+    border: 5px solid #072c49;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Logo */
+.logo {
+    z-index: 9999;
+    position: fixed;
+    display: block;
+    width: 150px;
+    background-color: #16649d;
+    position: fixed;
+    height: 60px;
+}
+
+/* Active/current link */
+.navbar a.active {
+    background-color: #0a3f69;
+    color: #83d1f5;
+}
+
+/* Links on mouse-over */
+.navbar a:hover:not(.active) {
+    background-color: #0f548b;
+    color: white;
+}
+
+/* The side navigation menu */
+.sidebar {
+    z-index: 9997;
+    padding: 60px 0px;
+    width: 100px;
+    background-color: #0a3f69;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    float: left;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #83d1f5;
+    font-weight: bold;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: #072c49;
+    color: #83d1f5;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #16649d;
+    color: white;
+}
+
+.content {
+    padding: 100px 150px;
+}
