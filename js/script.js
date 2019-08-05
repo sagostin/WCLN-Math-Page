@@ -57,7 +57,7 @@ for (i in json.examples) {
 }
 
 var content = document.getElementById("content");
-content.innerHTML += json.examples[active - 1].question;
+content.innerHTML += "<div class='text'>" + json.examples[active - 1].question + "</div>";
 
 function changeExample(element_id) {
     if (("example_" + active) != element_id) {
@@ -86,16 +86,16 @@ function changePage(element_id) {
 
     switch (element_id) {
         case "question":
-            content.innerHTML = json.examples[active - 1].question;
+            content.innerHTML = "<div class='text'>" + json.examples[active - 1].question + "</div>";
             break;
         case "answer":
-            content.innerHTML = json.examples[active - 1].answer;
+            content.innerHTML = "<div class='text'>" + json.examples[active - 1].answer + "</div>";
             break;
         case "video":
-            content.innerHTML = json.examples[active - 1].video;
+            content.innerHTML = "<div class='video'>" + json.examples[active - 1].video + "</div>";
             break;
         default:
-            content.innerHTML = json.examples[active - 1].question;
+            content.innerHTML = "<div class='text'>" + json.examples[active - 1].question + "</div>";
             break;
     }
 }

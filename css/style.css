@@ -99,5 +99,14 @@ body {
 }
 
 .content {
-    padding: 100px 150px;
+    padding: 60px 100px;
+    overflow: hidden;
+}
+
+.text {
+    padding: 40px 50px;
+}
+
+.video {
+    padding: 20px 25px;
 }
