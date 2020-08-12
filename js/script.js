@@ -1,4 +1,4 @@
-json = {
+/*json = {
     "examples": [{
         "question": `<h1>This is an example question 1 </h1> <mrow>
    <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -38,7 +38,7 @@ json = {
             "video": `<p>This is an example video 2</p> <iframe src="https://www.youtube.com/embed/YskpIu4RXZs"></iframe>`,
         },
     ],
-};
+};*/
 
 
 /**
